@@ -6,7 +6,7 @@ const FoodItem = ({ id, name, price, description, image }) => {
   const { cartItems, addToCart, removeFromCart, url } =
     useContext(StoreContext);
   return (
-    <div className="bg-white border-2 border-gray-400 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:translate-y-[-5px]">
+    <div className="bg-white pb-2 rounded-lg shadow-md overflow-hidden transform transition-transform duration-300 hover:translate-y-[-5px]">
       <div className="relative w-full h-48 overflow-hidden rounded-t-lg">
         <img
           src={url + "/images/" + image}
