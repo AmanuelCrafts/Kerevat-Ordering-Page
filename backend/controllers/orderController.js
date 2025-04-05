@@ -3,7 +3,7 @@ import userModel from "../models/userModel.js";
 import axios from "axios";
 
 const CHAPA_SECRET_KEY = process.env.CHAPA_SECRET_KEY;
-const CALLBACK_URL = "http://localhost:5173/verify";
+const CALLBACK_URL = "https://kerevat-frontend.onrender.com/verify";
 
 const placeOrder = async (req, res) => {
   try {
