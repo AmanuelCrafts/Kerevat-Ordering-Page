@@ -96,12 +96,16 @@ export const menu_list = [
     menu_image: menu_3,
   },
   {
-    menu_name: "BURGER & SANDWICH",
+    menu_name: "SOFT DRINK",
     menu_image: menu_4,
   },
   {
-    menu_name: "CULTURAL FOODS",
+    menu_name: "BURGER & SANDWICH",
     menu_image: menu_5,
+  },
+  {
+    menu_name: "CULTURAL FOOD",
+    menu_image: menu_6,
   },
 ];
 

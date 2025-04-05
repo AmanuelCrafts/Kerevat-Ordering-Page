@@ -5,7 +5,7 @@ const ExploreMenu = ({ category, setCategory }) => {
   return (
     <div className="py-6 px-2 md:px-6" id="explore-menu">
       <h2 className="mb-6 uppercase font-semibold">Explore our menu</h2>
-      <div className="grid md:grid-cols-5 sm:grid-cols-3 grid-cols-2 gap-4">
+      <div className="grid md:grid-cols-6 sm:grid-cols-3 grid-cols-2 gap-4">
         {menu_list.map((item, index) => {
           return (
             <div
